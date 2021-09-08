@@ -1,0 +1,16 @@
+To make an environment from a file: 
+	conda env create -f "RNAseq.yaml"
+To make an enviornment:
+	conda create --name "name-of-env"
+
+To list all conda environments:
+	conda env list
+
+To move to a different conda environment:
+	conda activate "name-of-env"
+
+To remove a conda environment:
+	conda remove --name myenv --all
+
+To give jupyter a conda env install set
+	python -m ipykernel install --user --name tensorflow --display-name "Python 3.8 (tensorflow)"

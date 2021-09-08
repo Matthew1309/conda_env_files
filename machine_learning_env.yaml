@@ -1,0 +1,33 @@
+# Prerequisite commands: ========
+# conda create --name machine_learning_env python=3.8.3
+# conda install jupyter
+# conda install nb_conda
+# conda install -c anaconda tensorflow
+
+# Type this command: =========
+# conda env update --file tools.yml
+channels:
+    - conda-forge
+dependencies:
+    - jupyter
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - pip
+    - pip:
+        - bayesian-optimization
+        - gym
+        - kaggle
+# My add ons
+    - scikit-image
+    - opencv
+    - pytesseract
