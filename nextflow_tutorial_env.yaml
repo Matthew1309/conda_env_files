@@ -1,5 +1,9 @@
 name: nf-core
+channels:
+    - bioconda
+    - conda-forge
 dependencies:
-	- python =3.7
-	- nextflow
-	- nf-core
+    - python =3.7
+    - nextflow
+    - nf-core
+    - openjdk
