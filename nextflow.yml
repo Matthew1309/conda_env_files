@@ -22,6 +22,8 @@ dependencies:
   - chardet=4.0.0=py37h89c1867_1
   - charset-normalizer=2.0.0=pyhd8ed1ab_0
   - click=8.0.1=py37h89c1867_0
+  - cni=0.8.0=hc0beb16_0
+  - cni-plugins=0.9.1=ha8f183a_0
   - colorama=0.4.4=pyh9f0ad1d_0
   - commonmark=0.9.1=py_0
   - coreutils=8.25=1
@@ -46,11 +48,13 @@ dependencies:
   - jbig=2.1=h7f98852_2003
   - jinja2=3.0.1=pyhd8ed1ab_0
   - jpeg=9d=h36c2ea0_0
+  - jq=1.6=h36c2ea0_1000
   - jsonschema=3.2.0=py37hc8dfbb8_1
   - krb5=1.19.2=hcc1bbae_0
   - lcms2=2.12=hddcbb42_0
   - ld_impl_linux-64=2.36.1=hea4e1c9_2
   - lerc=2.2.1=h9c3ff4c_0
+  - libarchive=3.5.2=hccf745f_0
   - libcurl=7.78.0=h2574ce0_0
   - libdeflate=1.7=h7f98852_5
   - libedit=3.1.20191231=he28a2e2_2
@@ -63,6 +67,7 @@ dependencies:
   - libiconv=1.16=h516909a_0
   - libnghttp2=1.43.0=h812cca2_0
   - libpng=1.6.37=h21135ba_2
+  - libseccomp=2.4.4=h36c2ea0_0
   - libssh2=1.10.0=ha56f1ee_0
   - libstdcxx-ng=11.1.0=h56837e0_8
   - libtiff=4.3.0=hf544144_1
@@ -71,10 +76,12 @@ dependencies:
   - libxcb=1.13=h7f98852_1003
   - libxml2=2.9.12=h72842e0_0
   - lz4-c=1.9.3=h9c3ff4c_1
+  - lzo=2.10=h516909a_1000
   - markupsafe=2.0.1=py37h5e8e339_0
   - ncurses=6.2=h58526e2_4
   - nextflow=21.04.0=h4a94de4_0
   - nf-core=2.1=pyh5e36f6f_0
+  - oniguruma=6.9.7.1=h7f98852_0
   - openjdk=11.0.9.1=h5cc2fde_1
   - openssl=1.1.1l=h7f98852_0
   - packaging=21.0=pyhd8ed1ab_0
@@ -101,9 +108,11 @@ dependencies:
   - requests-cache=0.8.0=pyhd8ed1ab_0
   - rich=10.9.0=py37h89c1867_0
   - setuptools=58.0.4=py37h89c1867_0
+  - singularity=3.7.1=hca90b9e_0
   - six=1.16.0=pyh6c4a22f_0
   - smmap=3.0.5=pyh44b312d_0
   - sqlite=3.36.0=h9cd32fc_1
+  - squashfs-tools=4.4=h6b73730_2
   - tabulate=0.8.9=pyhd8ed1ab_0
   - tk=8.6.11=h27826a3_1
   - typing_extensions=3.10.0.0=pyha770c72_0
