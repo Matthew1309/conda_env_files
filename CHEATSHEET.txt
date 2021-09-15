@@ -14,3 +14,10 @@ To remove a conda environment:
 
 To give jupyter a conda env install set
 	python -m ipykernel install --user --name tensorflow --display-name "Python 3.8 (tensorflow)"
+
+To update a conda env with a newer yml
+	activate your env
+	conda env update -f environment.yml
+
+To export your current env to yml file
+	conda env export > environment.yml
