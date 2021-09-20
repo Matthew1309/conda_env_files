@@ -15,10 +15,10 @@ dependencies:
   - brotlipy=0.7.0=py37h5e8e339_1001
   - bzip2=1.0.8=h7f98852_4
   - c-ares=1.17.2=h7f98852_0
-  - ca-certificates=2020.10.14=0
+  - ca-certificates=2021.7.5=h06a4308_1
   - cairo=1.14.12=h7636065_2
   - cattrs=1.8.0=pyhd8ed1ab_0
-  - certifi=2020.6.20=py37_0
+  - certifi=2021.5.30=py37h06a4308_0
   - cffi=1.14.6=py37hc58025e_0
   - chardet=4.0.0=py37h89c1867_1
   - charset-normalizer=2.0.0=pyhd8ed1ab_0
@@ -117,6 +117,7 @@ dependencies:
   - smmap=3.0.5=pyh44b312d_0
   - sqlite=3.36.0=h9cd32fc_1
   - squashfs-tools=4.4=h6b73730_2
+  - sra-tools=2.8.0=0
   - tabulate=0.8.9=pyhd8ed1ab_0
   - tk=8.6.11=h27826a3_1
   - typing_extensions=3.10.0.0=pyha770c72_0
