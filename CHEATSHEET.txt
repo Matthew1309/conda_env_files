@@ -21,3 +21,5 @@ To update a conda env with a newer yml
 
 To export your current env to yml file
 	conda env export > environment.yml
+If you want a more succinct version (note doesn't keep channels?)
+	conda env export --from-history > environment.yml

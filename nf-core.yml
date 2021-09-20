@@ -1,0 +1,14 @@
+name: nf-core2
+channels:
+  - defaults
+  - bioconda
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.8
+  - nextflow
+  - nf-core
+  - openjdk
+  - singularity
+  - graphviz
+  - sra-tools
