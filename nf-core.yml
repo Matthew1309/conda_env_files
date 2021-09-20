@@ -1,4 +1,4 @@
-name: nf-core2
+name: nf-core
 channels:
   - defaults
   - bioconda
