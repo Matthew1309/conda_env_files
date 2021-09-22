@@ -3,7 +3,7 @@ name: entrez
 channels:
     - conda-forge
     - bioconda
-
+    - defaults
 dependencies:
     - sra-tools
     - xmltodict
@@ -18,5 +18,7 @@ dependencies:
     - h5py
     - pyyaml
     - biopython
+    - trnascan-se
     - pip:
         - eutils>=0.6,<0.7
+        - ncbi-datasets-pylib
