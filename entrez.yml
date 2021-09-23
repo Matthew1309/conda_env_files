@@ -19,6 +19,7 @@ dependencies:
     - pyyaml
     - biopython
     - trnascan-se
+    - ncbi-datasets-cli
     - pip:
         - eutils>=0.6,<0.7
         - ncbi-datasets-pylib
