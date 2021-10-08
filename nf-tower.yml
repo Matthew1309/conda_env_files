@@ -1,0 +1,12 @@
+name: nf-tower  
+channels:      
+  - defaults   
+  - bioconda   
+  - anaconda   
+  - conda-forge
+dependencies:  
+  - python=3.8 
+  - nextflow   
+  - nf-core    
+  - openjdk
+  - nodejs>=16
