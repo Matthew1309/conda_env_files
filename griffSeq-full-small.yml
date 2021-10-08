@@ -1,0 +1,30 @@
+name: griffSeqTest
+channels:
+  - defaults
+  - bioconda
+dependencies:
+  - r
+  - r-devtools
+  - r-dplyr
+  - r-gplots
+  - r-ggplot2
+  - bioconductor-genefilter
+  - bioconductor-ballgown
+  - bioconductor-edger
+  - bioconductor-rhdf5
+  - bioconductor-biomart
+  - r-sleuth
+  - rseqc
+  - regtools
+  - picard
+  - multiqc
+  - fastqc
+  - kallisto
+  - tophat
+  - htseq
+  - gffcompare
+  - stringtie
+  - hisat2
+  - samtools
+  - bedtools
+
