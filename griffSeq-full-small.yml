@@ -1,4 +1,4 @@
-name: griffSeqTest
+name: griffSeq
 channels:
   - defaults
   - bioconda
