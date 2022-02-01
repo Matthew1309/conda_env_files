@@ -21,6 +21,7 @@ dependencies:
     - pyyaml
     - flask
     - boto3
+    - jupyterlab-git
     - pip:
         - tensorflow==2.4
         - bayesian-optimization
