@@ -23,3 +23,19 @@ To export your current env to yml file
 	conda env export > environment.yml
 If you want a more succinct version (note doesn't keep channels?)
 	conda env export --from-history > environment.yml
+
+
+
+To allow for nicer running of R-code in JupyterLab
+https://stackoverflow.com/questions/56460834/how-to-run-a-single-line-or-selected-code-in-a-jupyter-notebook-or-jupyterlab-ce
+This seems like a healful way to create an Rstudio like python kernal.
+
+```Settings --> Advanced Settings Editor --> JSON Settings Editor```
+then copy and paste this:
+```{
+            "command": "notebook:run-in-console",
+            "keys": [
+                "Ctrl Shift Enter"
+            ],
+            "selector": ".jp-Notebook.jp-mod-editMode"
+},```
