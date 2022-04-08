@@ -1,0 +1,14 @@
+name: scRNAseq
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - python
+  - jupyterlab
+  - jupyterlab-git
+  - ipykernel
+  - leidenalg
+  - scanpy
+  - pandas
+  - scvelo
