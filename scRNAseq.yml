@@ -12,3 +12,4 @@ dependencies:
   - scanpy
   - pandas
   - scvelo
+  - sra-tools
