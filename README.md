@@ -60,6 +60,8 @@ To give jupyter an R conda env follow
    "language":"R"
   }
 ``` 
-  fill the file with this, and make the R path the path to a specific conda R you want, and change the Cytotalk display name. <\br>
+  fill the file with this, and make the R path the path to a specific conda R you want, and change the Cytotalk display name.
+  
+  
   5. Make sure that the conda env, PCST in my case, has the irkernel conda installed otherwise the kernel just wont connect!
 
