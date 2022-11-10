@@ -1,0 +1,18 @@
+name: sc-R
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - mamba
+  - r-irkernel
+  - r-base=4.0.5
+  - r-seurat=4.0.4
+  - r-rcolorbrewer
+
+# In R enter the following
+# if (!requireNamespace("BiocManager", quietly = TRUE))
+# install.packages("BiocManager")
+# BiocManager::install(version = "3.12", ask = F, force=T)
+# BiocManager::install("clusterProfiler")
+# BiocManager::install("org.Mm.eg.db")
+# BiocManager::install("ensembldb")
