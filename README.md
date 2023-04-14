@@ -64,4 +64,7 @@ To give jupyter an R conda env follow
   
   
   5. Make sure that the conda env, PCST in my case, has the irkernel conda installed otherwise the kernel just wont connect!
+  6. If we already have an R installed on our device, we can do `install.packages('IRkernel')` in it, then pass the path
+	into the above kernel, restart our jupyter lab, and boom! We can now use our R env created in Rstudio in jupyter
+	with no conda install quirks!
 
