@@ -1,31 +1,40 @@
-To make an environment from a file: 
-	conda env create -f "RNAseq.yaml"
-To make an enviornment:
-	conda create --name "name-of-env"
+# Quick tips
+<details>
+    <summary>Expand</summary>
+        
+To make an environment from a file: <br>
+	```conda env create -f "RNAseq.yaml"```
+    
+To make an enviornment:<br>
+	```conda create --name "name-of-env"```
 
-To list all conda environments:
-	conda env list
+To list all conda environments:<br>
+	`conda env list`
 
-To move to a different conda environment:
-	conda activate "name-of-env"
+To move to a different conda environment:<br>
+	`conda activate "name-of-env"`
 
-To remove a conda environment:
-	conda remove --name myenv --all
+To remove a conda environment:<br>
+	`conda remove --name myenv --all`
 
-To give jupyter a conda env install set
-	python -m ipykernel install --user --name tensorflow --display-name "Python 3.8 (tensorflow)"
+To give jupyter a conda env install set:<br> 
+	`python -m ipykernel install --user --name tensorflow --display-name "Python 3.8 (tensorflow)"`
 
-To update a conda env with a newer yml
-	activate your env
-	conda env update -f environment.yml
+To update a conda env with a newer yml<br>
+	activate your env<br>
+	`conda env update -f environment.yml`
 
-To export your current env to yml file
-	conda env export > environment.yml
-If you want a more succinct version (note doesn't keep channels?)
-	conda env export --from-history > environment.yml
+To export your current env to yml file<br>
+	`conda env export > environment.yml`
+If you want a more succinct version (note doesn't keep channels?)<br>
+	`conda env export --from-history > environment.yml`
 
+</details>
 
-
+# Jupyterlab enhancements
+<details>
+    <summary>Line-by-line</summary>
+    
 To allow for nicer running of R-code in JupyterLab
 https://stackoverflow.com/questions/56460834/how-to-run-a-single-line-or-selected-code-in-a-jupyter-notebook-or-jupyterlab-ce
 This seems like a healful way to create an Rstudio like python kernal.
@@ -41,7 +50,11 @@ then copy and paste this:
             "selector": ".jp-Notebook.jp-mod-editMode"
 },
 ```
-
+</details>
+    
+<details>
+    <summary>Connect to R</summary>
+    
 To give jupyter an R conda env follow
 	potentially to add R kernels: https://stackoverflow.com/questions/68939097/how-to-use-different-versions-of-r-kernels-in-vs-code-jupyter-notebooks-when-usi
   1. Make a conda env and get r-base
@@ -67,4 +80,4 @@ To give jupyter an R conda env follow
   6. If we already have an R installed on our device, we can do `install.packages('IRkernel')` in it, then pass the path
 	into the above kernel, restart our jupyter lab, and boom! We can now use our R env created in Rstudio in jupyter
 	with no conda install quirks!
-
+</details>
