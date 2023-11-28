@@ -29,6 +29,9 @@ To export your current env to yml file<br>
 If you want a more succinct version (note doesn't keep channels?)<br>
 	`conda env export --from-history > environment.yml`
 
+If you want to use mamba from one env to create another env
+	`mamba install -n ops -y -c conda-forge mamba`
+
 </details>
 
 # Jupyterlab enhancements
